@@ -67,7 +67,7 @@ body {
 }
 
 .navigation__item {
-  margin-right: 90px;
+  margin-right: 60px;
   text-transform: uppercase;
   font-size: var(--header-font-size);
   font-weight: 400;
@@ -184,9 +184,9 @@ body {
   overflow: hidden;
 }
 
-.main-article__source {
+/* .main-article__source {
 
-}
+} */
 
 /* smoll articke  (блок новостей в правой колонке) */
 
@@ -207,9 +207,10 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.smoll-article__caption {
+/* .smoll-article__caption {
 }
 
 .smoll-article__date {
@@ -222,7 +223,7 @@ body {
 }
 
 .article-source {
-}
+} */
 
 .article-date + .article-source::before {
   content: ' • '; 
