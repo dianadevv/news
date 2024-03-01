@@ -1,0 +1,20 @@
+.smoll-article {
+    padding-left: 18px;
+    border-left: solid 1px var(--color-primary);
+    margin-bottom: 35px;
+}
+  
+.smoll-article:last-child {
+    margin-bottom: 0;
+}
+  
+.smoll-article__title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+

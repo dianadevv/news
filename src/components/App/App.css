@@ -1,0 +1,16 @@
+/* HEADER */
+.header {
+    padding-top: 38px;
+    padding-bottom: 150px;
+}
+
+/* FOOTHER */
+.footer {
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.footer__navigation {
+    margin-bottom: 47px;
+}
+

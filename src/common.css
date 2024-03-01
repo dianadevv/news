@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+* {
+    /* сбрасываем все браузерные стили */
+    all: unset;
+    display: revert;
+}
+
+.root {
+    /* padding: 0px 5px;
+    display: block; */
+    min-width: 100vw;
+    min-height: 100vh;
+}
+  
+:root {
+   --color-primary: #262A2F;
+   --color-grey: #868686;
+  
+   --header-font-size: 24px;
+  
+   --grid-culumn-width: 101px;
+   --grid-gap: 20px;
+}
+  
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: var(--color-primary);
+    font-size: 22px;
+    font-weight: 300;}
+    
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, var(--grid-culumn-width));  
+    gap: var(--grid-gap);
+}
+    
+.container {
+    max-width: 1435px;
+    margin: 0 auto;
+}
+
+.article-category {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+  
+.article-source {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-grey);
+    text-transform: uppercase;
+}
+  
+.article-date {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase; 
+}
+
+.article-date + .article-source::before {
+    content: ' • '; 
+}
